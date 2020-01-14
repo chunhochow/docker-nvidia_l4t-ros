@@ -1,4 +1,4 @@
-FROM nvidia_l4t-ros:r32.2.1-melodic-ros-core
+FROM chunhochow/nvidia_l4t-ros:r32.2.1-melodic-ros-core
 
 # install ros packages
 RUN apt-get update && apt-get install -y \
